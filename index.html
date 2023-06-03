@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   
+    <link href="share.css" rel="stylesheet" >
+    <link href="style.css" rel="stylesheet">
+    <title>Restaurant</title>
+ </head>
+ 
+ <body>
+    <header class="Monisha" >
+        <dev><a class="heading" href="index.html">Resta<span>uarant</span></a></dev>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <h1>Where Food meets Tradition!</h1>
+            <p>Effortlessly blending old and modern,timeless and contemporary chic,with dishes to delight.</p>
+            </div>  
+        </section>
+        <section class="cuisine" id="cuisine">
+
+            <h3> Our Specialist Cuisine </h3>
+            
+            <div class="menu ">
+            
+                <div class="menus hidden">
+                    <a href="south.html"><h2>South Indian Cuisine</h2> 
+                    <p> Experience the Unique Flavourful Cuisine of South India,discover trditional recipes and modern twists on classic dishes.</p>
+                </div></a>
+           
+                <div class="menus hidden">
+                    <a href="north.html"><h2>North Indian Cuisine</h2>   
+                    <p>Transform your taste buds with North Indian cuisine.Let us help you explore the flavours and spices of India with our dishes!</p>
+                </div>
+            </a>
+            
+             
+                <div class="menus hidden">
+                    <a href="chinese.html"><h2>Indo Chinese Cuisine</h2>  
+                    <p>Our chefs bring you the best in authenticate Chinese dishes with an Indian twist.Enjoy wide variety of flavourful and savary dishes.</p>
+                </div>
+            </a>
+           
+                <div class="menus hidden">
+                    <a href="italian.html"><h2>Indo Italian Cuisine</h2>
+                    <p>For those who think Italian food is all about pizza and pasta, Our chefs gives you the best variety of Indo-Italian foods.</p> 
+                </div>
+            </a> 
+            </div>
+            
+            </section>
+        <section class="how ">
+            <h4>How it Works ?</h4>
+            <ul  class ="work">
+                <li class ="works hidden">
+                    <img src="img/works/mobile_phone_drawing_tutorial.png">
+                    <p>Step 1: Order</p>
+                </li>
+                <li class ="works hidden">
+                    <img src="img/works/food-delivery-truck-with-cartoon-driver-yellow-vector-31245995.jpg">
+                    <p>Step 2: Delivery</p>
+                </li>
+                <li class="works hidden">
+                    <img src="img/works/pay-for-something-hand-holds-bills-drawing-vector-36507987.jpg">
+                    <p>Step 3: Pay</p>
+                </li>
+                <li class=" works hidden">
+                    <img src="img/works/istockphoto-148013107-612x612.jpg">
+                    <p>Step 4: Eat!</p>
+                </li>
+            </ul>
+        </section>
+      
+        <section class="About-Us">
+            <div class="About-content ">
+                <h5>We cook the best food!</h5>
+                <img src="img/wallpaperflare.com_wallpaper (3).jpg">
+                <p >Experience the vibrant tapestry of Indian flavors at our restaurant. From spicy curries to fragrant biryanis, we bring you the essence of India's rich culinary heritage. Immerse yourself in a gastronomic adventure where tradition meets innovation. Join us and indulge in an unforgettable dining experience that will transport your taste buds to the colorful streets of India.</p>
+            </div>  
+        </section>
+       
+        <section class="contact " id="contact">
+            <div class ="lines ">
+                <li>Once you try it,you'll love it!</li>
+                <p> Gather your friends and family, and allow us to take you on a gastronomic journey through India. Our warm and inviting ambiance sets the stage for a memorable dining experience, where the flavors speak for themselves. Our attentive staff will guide you through the menu, recommending signature dishes and ensuring that your preferences are met.</p>
+            </div>
+
+         <h6 class="book"> Book Table </h6>
+                    
+        <div class="row">
+            <form class="hidden" action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="number" placeholder="number" class="box">
+                <input type="date" placeholder="date" class="box">
+                <input type="time" placeholder="time"  class="box">
+                <button type="submit" class="btn"> Book Now </button>
+            </form>
+        </div>
+        </section>
+        <section class="footer">
+            <ul class="logo">
+                <a>Resta<span>uarant</span></a>
+                <li class="india">Indian Restaurant</li>
+                <li class="logos hidden"> <img src="img/icons/5279111_network_fb_social media_facebook_facebook logo_icon.png">
+                </li>
+                <li class="logos hidden"><img src="img/icons/5279112_camera_instagram_social media_instagram logo_icon.png"></li>
+                <li class="logos hidden"><img src="img/icons/5305173_tweet_twitter_twitter logo_icon.png"></li>
+            </ul>
+            <ul class="info">
+                <p>Services</p>
+                <li>Delivery</li>
+                <li>Pricing</li>
+                <li>Fast Food</li>
+                <li>Reserve Your Spot</li>
+            </ul>
+            <ul class="info">
+                <p>Information</p>
+                <li>Event</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>Terms of condition</li>
+            </ul>
+            <ul class="info">
+                <p>Address</p>
+                <li></li>
+                <li>Yelhanka</li>
+                <li>011-000-0000</li>
+                <li>purple@email.com</li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry)=>{
+            console.log(entry)
+            if (entry.isIntersecting){
+                entry.target.classList.add('show');
+            } else{
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+    
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((e1)=> observer.observe(e1));
+    </script>
+    
+ </body>
+ </html>

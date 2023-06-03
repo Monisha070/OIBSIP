@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1.2rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#747272;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:rgb(54, 54, 54);
+}
+
+body{
+    font-size: 20px;
+    margin:0px;
+    height:auto;
+}
+.Monisha .heading{
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px rgb(51, 51, 51);
+    text-decoration: none;
+    color:aliceblue;
+}
+.Monisha{
+    position:absolute;
+    padding:20px;
+}
+.Monisha span{
+    color: rgb(170, 205, 236);
+}
+
+
+.intro{
+    height:38rem;
+    background-image: url("img/queens-indian-hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.intro .intro-content{
+    display:list-item;
+    width:500px;
+    border-radius: 2px;
+    text-align:center;
+    padding: 30px;
+    margin-left:20px;
+    position: relative;
+    top:150px;
+}
+.intro .intro-content h1{
+    font-size: 40px;
+    font-family:'Noto Serif', serif;
+    color:rgb(253, 248, 246);
+    text-transform: uppercase;
+    margin:5px;}
+.intro .intro-content p{
+    font-family:'Kalam', cursive;
+    color:azure;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.cuisine{
+    background:linear-gradient(155deg,rgb(31, 24, 19),rgb(5, 5, 5));
+    display: flex;
+}
+.cuisine h3{
+    font-size: 35px;
+    margin:2rem 0 2rem 33rem;
+    text-align: center;
+    color:rgb(253, 253, 253);
+    position: absolute;
+   font-family:'Noto Serif', serif; 
+
+  }
+
+.cuisine  .menus{
+    margin:7rem -6rem -8rem 11rem;
+    display: inline-block;
+    list-style: none;
+    justify-content: center;
+    width:25rem;
+    padding-left: 1.5rem;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 3px 3px 4px rgb(59, 58, 58 ,0.8);
+}
+.cuisine .menu .menus h2{
+    font-size: 1.3rem;
+    color:aliceblue;
+    padding-top: 1rem;
+}
+.cuisine .menu .menus p{
+    font-size: 1rem;
+    color:rgb(100, 100, 100);
+}
+.cuisine .menu .menus:hover {
+    transform: scale(1.1);
+}
+.cuisine .menu .menus a{
+    text-decoration: none;
+}
+
+.how .works {
+    margin:10rem 0rem 2rem 5rem;
+    display: inline-block;
+    list-style: none;
+    justify-content: center;
+}
+ .how h4{
+    font-size: 35px;
+    margin:6rem 27rem;
+    text-align: center;
+    color:rgb(253, 253, 253);
+    position: absolute;
+    font-family: 'Noto Serif', serif; 
+
+  }
+.how .works img{
+    height:130px;
+    width:150px;
+    box-shadow: 2px 2px 2px rgba(51,47,47,0.5);
+    border-radius: 50%;
+    object-fit:cover;
+}
+.how .works p{
+    color:rgb(161, 160, 160);
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+.how .works img:hover{
+    transform:scale(1.1);
+}
+.how {
+    padding:10px;
+     padding-left: 150px; 
+    background:linear-gradient(175deg,rgb(5, 5, 5),rgb(41, 30, 21));
+}
+
+.About-Us .About-content{
+    background:linear-gradient(155deg,rgb(41, 30, 21),rgb(5, 5, 5));
+    display: flex;
+    height:40rem;
+}
+.About-Us .About-content h5{
+    font-size: 35px;
+    margin:2rem 0 4rem 33rem;
+    text-align: center;
+    color:rgb(253, 253, 253);
+    position: absolute;
+   font-family:'Noto Serif', serif; 
+  }
+
+.About-Us .About-content img{
+   height:26rem;
+   width:28rem;
+   display: block;
+   justify-content: left;
+   margin:8rem;
+   padding-left: 3rem;
+   border-radius: 10px;
+   position: absolute;
+  
+  }
+ .About-Us  .About-content p{
+    font-size: 1.6rem; 
+    font-family:'Kalam', cursive;
+    width:35rem;
+    text-align: center;
+    color:beige;
+    margin: 10rem 0 0 43rem;
+  }
+  .contact .row{
+    background:linear-gradient(155deg,rgb(12, 9, 7),rgb(32, 18, 5));
+    display: flex;
+    height:45rem;
+}
+  .contact .row form{
+    flex:1 1 40rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 2rem;
+}
+.book {
+    font-size: 35px;
+    margin:3rem 33rem;
+    text-align: center;
+    color:rgb(253, 253, 253);
+    position: absolute;
+    font-family: 'Noto Serif', serif; 
+}
+
+
+.contact .row form .box{
+    padding:1rem;
+    margin:4rem 0 -5rem 41rem;
+    background:#7c7a7a33;
+    color:black;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:26rem;
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+.contact .lines{
+    margin:10rem 2rem;
+    color:rgb(243, 236, 236);
+    text-transform: none;
+    width:37rem;
+    position:absolute;
+}
+.contact .lines p{
+    font-size: 1.7rem;
+    margin:2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact li{
+    list-style: none;
+    margin:2rem;
+    font-family:'Open Sans', sans-serif; 
+    font-size: 2.3rem;
+   
+}
+.btn{
+    padding:0.5rem 1rem;
+    background:#5f5f5f;
+    color:#030303;
+    cursor: pointer;
+    margin-top:4rem;
+    margin-left: 42rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding:0.1rem ;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background:#383737;
+    color:#f1e9e9;
+}
+.footer{
+    display:flex;
+    color: aliceblue;
+    height:15rem;
+    padding-left: 5rem;
+    font-family:'Open Sans', sans-serif;  
+    background:linear-gradient(155deg,rgb(41, 30, 21),rgb(5, 5, 5));
+}
+.footer  li{
+    display: block;
+    list-style: none;
+    margin-left: 5rem;
+}
+.footer  p{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer .logo a{
+    font-size:1.7rem ;
+    margin:2rem;
+}
+#india{
+    margin:1.1rem;
+    font-size: 1.1rem;
+    padding-left: 14px;
+}
+.footer .logo .logos{
+    display:inline-flex;
+    height:50px;
+    width:50px;
+    margin:0.5rem;
+}
+.footer .logo .logos:hover{
+    transform: scale(1.1);
+}
+
+.hidden{
+    opacity:0;
+    filter:blur(4px);
+    transform: translateY(100%);
+    transition: all 0.5s;
+}
+
+.show{
+    opacity: 1;
+    filter:blur(0);
+    transform:translateY(0);
+} 
+
+@media(prefers-reduced-motion){
+ 
+    .hidden{
+    transition: none;
+ }
+    
+}
+  
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 60%;
+    }
+
+    .home{
+        padding:1rem 5rem;
+    }
+    .intro .intro-content h1{
+        font-size: 90%;
+        margin-top: -5rem;
+    }
+    .intro .intro-content p{
+        font-size: 80%;
+    }
+    .cuisine h3{
+        font-size: 120%;
+        padding-left: 5rem;
+    }
+    .cuisine .menu{
+        width:100%
+}
+    .how h4,
+    .About-Us .About-content h5,
+    .contact h6
+    {
+         font-size: 120%;
+     }
+    .how .work{
+        margin-left: -7rem;
+     }
+
+     .About-Us .About-content ,
+     .contact .lines,
+     .contact .row
+            {
+        padding-left: 15rem;
+     }
+     .footer .info li{
+        font-size: 80%;
+     }
+     .SI ul{
+        width:100rem;
+     }
+     .SI{
+        margin-top: -4rem;
+     }
+    
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+    
+    .how .works img{
+        width:110px;
+        height:90px;
+    }
+    .how .work,
+    .About-Us .About-content 
+    {
+        margin-left: -17rem;
+    }
+    .contact .lines,
+    .contact .row{
+        margin-left: -13rem;
+    }
+    .how .works p{
+        font-size: 60%;
+    }
+    .footer .logo .logos{
+        height:20px;
+        width:20px;
+    }
+    .footer .info li{
+        font-size: 60%;
+    }
+    .SI ul{
+        width:90rem;
+        font-size: 80%;
+        gap:30px 40px
+     }
+     .SI{
+        width:180%;
+        margin-left: -6rem;
+     }
+     .SI h1{
+        margin-left: -60rem;
+     }
+     .SI h2{
+        font-size: 80%;
+     }
+ 
+ }
+
+@media (max-width:400px){
+
+    .Monisha  .heading{
+        margin-left: 55rem;
+        font-size: 2rem;
+        margin-top: -3rem;
+    }
+    .intro .intro-content h1
+    {
+      font-size: 70%;
+      width:20rem;
+      margin-top: -5rem;
+    }
+    .intro .intro-content p{
+        font-size: 60%;
+        width:35rem;
+    }
+    .cuisine h3{
+        font-size: 80%;
+        margin-left: -2rem;
+    }
+    .how h4
+    {
+        font-size: 70%;
+        margin-left:-16rem;
+        width:15rem;
+    }
+    .About-Us .About-content h5{
+        font-size: 80%;
+        width: 20rem;
+        margin-left: 4rem;
+    }
+    .About-Us .About-content img{
+        display:none;
+    }
+    .About-Us .About-content p{
+        font-size: 70%;
+        width:45rem;
+        margin-left: 4rem;
+    }
+    .contact .lines{
+        display: none;
+    }
+    .contact .book{
+        font-size: 70%;
+        width:15rem;
+        margin-left: -1rem;
+    }
+    .contact .row{
+        margin-left: -50rem;
+    }
+    .footer {
+        display: block;
+        height: 15rem;
+        margin-top: -3rem;
+        margin-left:-8rem; 
+        background:rgb(46, 36, 29);
+    }
+   .footer .logo{
+    margin-left: 3rem;
+
+   }
+   .footer .logo .logos{
+    height: 40px;
+    width:40px;
+   }
+   .footer .india{
+      font-size: 70%;
+      margin:2rem;
+   }
+   .footer .logo a{
+    font-size: 100%;
+    margin-left: -3rem;
+   }
+    .footer .info {
+        display: none;
+    }
+    .SI ul{
+        display:contents;
+        width:70rem;
+        font-size: 70%;
+     }
+     .SI{
+        margin-left: -6rem;
+     }
+
+     .SI li{
+        margin:2rem;
+        width:50rem;
+     }
+     .SI h1{
+        margin-left: -10rem;
+     }
+     .SI h2{
+        font-size: 80%;
+     }
+
+}
+    

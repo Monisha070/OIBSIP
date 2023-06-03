@@ -1,0 +1,51 @@
+.SI h1{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(235, 217, 172);
+    font-family: 'Noto Serif', serif;
+    margin:30px;
+    padding-top: 20px; 
+}
+
+.SI{
+    background:linear-gradient(155deg,rgb(19, 14, 11),rgb(5, 5, 5));
+    margin-top: -2rem;
+
+}
+.SI li img{
+    width:200px;
+    height:160px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.SI h2{
+    font-size: 30px;
+    font-family:'Quicksand', sans-serif;
+    color:beige;
+}
+.SI ul{
+    justify-content: space-between;
+    flex-direction: row;
+    width:70rem;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px 80px; 
+    padding-left: 80px ;
+    margin-bottom: -1rem;  
+}
+.SI li:hover{
+    transform:scale(0.9);
+}
+.SI li{
+    list-style: none;
+    background-color: rgb(59, 59, 59);
+    box-shadow: 1px 1px 4px rgba(53, 52, 52, 0.2);
+    border-radius: 5px;
+    overflow:hidden;
+    object-fit: cover;
+    display: flex;
+}
+#block1{
+    margin:20px 25px;
+}
